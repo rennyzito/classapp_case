@@ -1,14 +1,8 @@
 import pandas as pd
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn import metrics
-from sklearn.metrics import accuracy_score, classification_report
 import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import confusion_matrix
 scaler = StandardScaler()
 
 df = pd.read_excel("logit_data_2.xlsx")
